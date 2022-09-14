@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    background-color: rgb(36, 121, 94);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.logo {
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.661)), url(../img/prestapronto.jpg);
+    background-position: center;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 60px;
+    color: #fff;
+}
+
+.hero-content h2 {
+    margin-top: 30px;
+    font-size: 35px;
+    color: #fff;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.hero-content a button {
+    padding: 0 20px;
+    border-radius: 15px;
+    background: none;
+    color: #fff;
+    border-color: #fff;
+    height: 36px;
+    font-weight: 500;
+    font-size: 15px;
+    margin: 15px;
+}
+
+.hero-content a button:hover {
+    background-color: #fff;
+    color: rgb(6, 4, 4);
+}
